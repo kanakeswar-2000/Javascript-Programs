@@ -1,0 +1,47 @@
+.bg-container {
+    height: 100vh;
+    background-size: cover;
+    padding: 10px;
+    background-color: white;
+}
+
+.main-heading {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 10px;
+    height: 80px;
+}
+
+.background {
+    background-color: #222222;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.color {
+    color: #49a6e9;
+}
+
+.b1 {
+    background-color: #e0e0e0;
+}
+
+.b2 {
+    background-color: #6fcf97;
+}
+
+.b3 {
+    background-color: #56ccf2;
+}
+
+.b4 {
+    background-color: #bb6bd9;
+}
