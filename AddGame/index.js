@@ -5,11 +5,11 @@ let userInputElement = document.getElementById("userInput");
 let gameresultElement = document.getElementById("gameResult");
 
 function check_result() {
-    let firstnumber = parseInt(firstnumberElement.textContent);
-
+    let firstnumber = (firstnumberElement.textContent);
+    
     let sum = parseInt(userInputElement.value);
-
-    let secondnumber = parseInt(secondnumberElement.textContent);
+    
+    let secondnumber = (secondnumberElement.textContent);
 
     if (firstnumber + secondnumber === sum) {
         gameresultElement.textContent = "Congratulations! You got it right";
